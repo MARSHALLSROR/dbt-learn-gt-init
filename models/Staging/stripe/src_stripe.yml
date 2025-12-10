@@ -1,8 +1,6 @@
-version: 2
-
 sources:
   - name: stripe
-    database: raw       # If you are using BigQuery, change this to: dbt-tutorial
+    database: raw
     schema: stripe
     tables:
-      - name: payment   # Note: This is singular 'payment'
+      - name: payment
